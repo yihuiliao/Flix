@@ -96,7 +96,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHy-GU-40x">
-                                <rect key="frame" x="20" y="426" width="374" height="104"/>
+                                <rect key="frame" x="27" y="437" width="374" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -168,26 +168,26 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="PzE-hI-eWx">
-                                    <size key="itemSize" width="186" height="232"/>
+                                    <size key="itemSize" width="189" height="220"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieGridCell" id="LsR-j9-Yr2" customClass="MovieGridCell" customModule="Flix" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="186" height="232"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="189" height="220"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Mgl-G3-jmJ">
-                                            <rect key="frame" x="0.0" y="0.0" width="186" height="232"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="189" height="220"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7iw-HQ-9tG">
-                                                    <rect key="frame" x="10" y="4" width="176" height="228"/>
+                                                    <rect key="frame" x="10" y="4" width="179" height="216"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="186" height="232"/>
+                                        <size key="customSize" width="189" height="220"/>
                                         <connections>
                                             <outlet property="posterView" destination="7iw-HQ-9tG" id="1c6-vi-met"/>
                                         </connections>
